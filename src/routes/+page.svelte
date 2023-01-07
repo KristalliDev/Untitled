@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+body {
+	background-color: rgb(137, 159, 209);
+}
+
+h1 {
+	font-family: monospace;
+	font-size: 17vh;
+	display: flex;
+	justify-content: center;
+	color: rgb(211, 223, 255);
+}
+</style>
+<body>
+	<h1>Hello, Sailors :D</h1>	
+</body>
