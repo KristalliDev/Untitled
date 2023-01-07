@@ -11,6 +11,7 @@ h1 {
 	color: rgb(211, 223, 255);
 }
 </style>
+
 <body>
-	<h1>Hello, Sailors :D</h1>	
+	<h1>Hello, Sailors :D</h1>
 </body>
