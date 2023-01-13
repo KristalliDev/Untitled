@@ -1,14 +1,13 @@
 <style>
 body {
-	background-color: rgb(137, 159, 209);
-}
+	background-color: rgb(47, 56, 76)}
 
 h1 {
-	font-family: monospace;
-	font-size: 17vh;
 	display: flex;
+	font-family: monospace;
+	font-size: 13vh;
+	color: rgb(222, 222, 222);
 	justify-content: center;
-	color: rgb(211, 223, 255);
 }
 </style>
 
