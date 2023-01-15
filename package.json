@@ -1,8 +1,13 @@
 {
 	"name": "無題",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"private": true,
 	"type": "module",
+	"author": {
+		"name": "Kristalli",
+		"email": "kristal.dev@pm.me"
+	},
+	"license": "The Unlicense",
 	"scripts": {
 		"changelog": "echo it's 'pnpm changeset' :D",
 		"dev": "vite dev",
