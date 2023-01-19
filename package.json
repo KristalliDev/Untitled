@@ -1,6 +1,6 @@
 {
 	"name": "無題",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"private": true,
 	"type": "module",
 	"author": {
@@ -12,6 +12,7 @@
 		"changelog": "echo it's 'pnpm changeset' :D",
 		"dev": "vite dev",
 		"build": "vite build",
+		"build:dev": "pnpm format && pnpm lint && pnpm build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
