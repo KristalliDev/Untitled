@@ -10,29 +10,29 @@
 <slot />
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
-.link {
-    text-decoration: none;
-    color:rgb(76, 85, 112);
-	font-family: 'IBM Plex Mono', monospace;
-}
+	.link {
+		text-decoration: none;
+		color: rgb(76, 85, 112);
+		font-family: 'IBM Plex Mono', monospace;
+	}
 
-:hover.link {
-    color: rgb(22, 28, 49);
-}
+	:hover.link {
+		color: rgb(22, 28, 49);
+	}
 
-.navbar {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 1rem;
-	font-size: 3vh;
-}
-
-@media screen and (max-width: 600px) {
 	.navbar {
-		font-size: 2.5vh;
-		padding: 0.5rem;
+		display: flex;
+		justify-content: space-evenly;
+		padding: 1rem;
+		font-size: 3vh;
+	}
+
+	@media screen and (max-width: 600px) {
+		.navbar {
+			font-size: 2.5vh;
+			padding: 0.5rem;
 		}
 	}
 </style>
