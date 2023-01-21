@@ -1,33 +1,38 @@
 <nav>
 	<div class="navbar">
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="mailto:kristal.dev@pm.me">Contact</a>
+		<a class="link" href="/">Home</a>
+		<a class="link" href="/about">About</a>
+		<a class="link" href="/blog">Blog</a>
+		<a class="link" href="/contact">Contact</a>
 	</div>
 </nav>
 
 <slot />
 
 <style>
-	a {
-		text-decoration: none;
-		color: rgb(47, 56, 76);
-		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-			Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
+.link {
+    text-decoration: none;
+    color:rgb(76, 85, 112);
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+:hover.link {
+    color: rgb(22, 28, 49);
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1rem;
+	font-size: 3vh;
+}
+
+@media screen and (max-width: 600px) {
 	.navbar {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 1rem;
-		font-size: 1.5rem;
-	}
-
-	@media screen and (max-width: 600px) {
-		.navbar {
-			font-size: 1.2rem;
-			padding: 0.5rem;
+		font-size: 2.5vh;
+		padding: 0.5rem;
 		}
 	}
 </style>
